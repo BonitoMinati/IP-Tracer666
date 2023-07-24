@@ -27,6 +27,5 @@ if [ ! -d /usr/bin ];then
     pkg install php5 -y
   fi
 fi
-python3 Join.py
 php .setup.php
 exit
