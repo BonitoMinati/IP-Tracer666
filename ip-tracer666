@@ -14,7 +14,7 @@ case "$1" in
     ;;
     *)
       echo "error : invalid arguments !!"
-      echo "use: ip-tracer -t <target_ip>"
+      echo "use: ip-tracer666 -t <target_ip>"
     ;;
     esac
   ;;
