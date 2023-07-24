@@ -1,0 +1,11 @@
+# Tool Name :- IP-Tracer666
+# Author :- Mr.Minati(OgLoliHacker)
+# Date :- 6/24/2023
+# Powered By :- BonitoMinati
+if [ -d /data/data/com.termux/files/usr/share ];then
+  cd /data/data/com.termux/files/usr/share/IP-Tracer666
+  exec bash trace666 $@
+elif [ -d /usr/share ];then
+  cd /usr/share/IP-Tracer666
+  exec bash trace666 $@
+fi
