@@ -12,14 +12,19 @@ IP-Tracer666 is used to track an ip address. IP-Tracer666 is developed for Termu
 </p>
 
 ## How to install IP-Tracer ?
-
-* `apt update`
-
-* `apt install git -y`
-
-* `git clone https://github.com/BonitoMinati/IP-Tracer666.git && cd IP-Tracer666 && chmod +x install && sh install`
-
-* or `./install`
+```bash
+apt update
+```
+```bash
+apt install git -y
+```
+```bash
+git clone https://github.com/BonitoMinati/IP-Tracer666.git && cd IP-Tracer666 && chmod +x install && sh install
+```
+* or
+  ```bash
+./install
+  ```
 
 
 ## How to use IP-Tracer666
