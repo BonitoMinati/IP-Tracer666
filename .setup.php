@@ -80,8 +80,8 @@ class set {
 \033[00m
 EOL;
 
-    if (file_exists("/usr/bin/ip-tracer") || file_exists("/data/data/com.termux/files/usr/bin/ip-tracer")) {
-      echo "\033[01;32m      IP-Tracer installed Successfully !!!\033[00m\n";
+    if (file_exists("/usr/bin/ip-tracer666") || file_exists("/data/data/com.termux/files/usr/bin/ip-tracer666")) {
+      echo "\033[01;32m      IP-Tracer666 installed Successfully !!!\033[00m\n";
       echo <<<EOL
 
 \033[01;37m ----------------------------------------------
@@ -97,7 +97,7 @@ EOL;
 
 EOL;
     } else {
-      echo "\n\n\033[01;31m  Sorry IP-Tracer is not installed !!!\033[00m";
+      echo "\n\n\033[01;31m  Sorry IP-Tracer666 is not installed !!!\033[00m";
     }
   }
 }
