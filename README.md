@@ -22,9 +22,9 @@ apt install git -y
 git clone https://github.com/BonitoMinati/IP-Tracer666.git && cd IP-Tracer666 && chmod +x install && sh install
 ```
 * or
-  ```bash
+```bash
 ./install
-  ```
+```
 
 
 ## How to use IP-Tracer666
