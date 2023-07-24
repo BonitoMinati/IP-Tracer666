@@ -2,6 +2,16 @@ import os
 import colorama
 import time
 import sys
+from colorama import  Fore,Style
+R = Fore.RED
+B = Fore.BLUE
+G = Fore.GREEN
+C = Fore.CYAN
+Y = Fore.YELLOW
+M = Fore.MAGENTA
+W = Fore.WHITE
+try:
+	import colorama
 
 def MSG():
 	print(Y)
