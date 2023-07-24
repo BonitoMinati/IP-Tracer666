@@ -5,59 +5,59 @@ class set {
     global $system;
     // removing old files
     if ($system=="termux") {
-      system("rm -rf /data/data/com.termux/files/usr/share/IP-Tracer");
-      system("rm -rf /data/data/com.termux/files/usr/bin/ip-tracer");
-      system("rm -rf /data/data/com.termux/files/usr/bin/trace");
+      system("rm -rf /data/data/com.termux/files/usr/share/IP-Tracer666");
+      system("rm -rf /data/data/com.termux/files/usr/bin/ip-tracer666");
+      system("rm -rf /data/data/com.termux/files/usr/bin/trace666");
     } elseif ($system=="ubuntu") {
-      system("sudo rm -rf /usr/bin/ip-tracer");
-      system("sudo rm -rf /usr/bin/trace");
-      system("sudo rm -rf /usr/share/IP-Tracer");
+      system("sudo rm -rf /usr/bin/ip-tracer666");
+      system("sudo rm -rf /usr/bin/trace666");
+      system("sudo rm -rf /usr/share/IP-Tracer666");
     } else {
-      system("rm -rf /usr/bin/ip-tracer");
-      system("rm -rf /usr/bin/trace");
-      system("rm -rf /usr/share/IP-Tracer");
+      system("rm -rf /usr/bin/ip-tracer666");
+      system("rm -rf /usr/bin/trace666");
+      system("rm -rf /usr/share/IP-Tracer666");
     }
     
     // adding bin file
     if ($system=="termux") {
       system("mv -v modules/ip-tracer /data/data/com.termux/files/usr/bin/");
       system("mv -v modules/trace /data/data/com.termux/files/usr/bin/");
-      system("chmod +x /data/data/com.termux/files/usr/bin/ip-tracer trace");
-      system("chmod +x /data/data/com.termux/files/usr/bin/trace");
+      system("chmod +x /data/data/com.termux/files/usr/bin/ip-tracer666 trace666");
+      system("chmod +x /data/data/com.termux/files/usr/bin/trace666");
     } elseif ($system=="ubuntu") {
       system("sudo mv -v modules/ip-tracer /usr/bin/");
       system("sudo mv -v modules/trace /usr/bin/");
-      system("sudo chmod +x /usr/bin/ip-tracer");
-      system("sudo chmod +x /usr/bin/trace");
+      system("sudo chmod +x /usr/bin/ip-tracer666");
+      system("sudo chmod +x /usr/bin/trace666");
     } else {
       system("mv -v modules/ip-tracer /usr/bin/");
       system("mv -v modules/trace /usr/bin/");
-      system("chmod +x /usr/bin/ip-tracer");
-      system("chmod +x /usr/bin/trace");
+      system("chmod +x /usr/bin/ip-tracer666");
+      system("chmod +x /usr/bin/trace666");
     }
 
-    // copy files from IP-Tracer to .IP-Tracer directory.
+    // copy files from IP-Tracer666 to .IP-Tracer666 directory.
     if ($system=="termux") {
-      system("mkdir /data/data/com.termux/files/usr/share/IP-Tracer");
+      system("mkdir /data/data/com.termux/files/usr/share/IP-Tracer666");
       system("chmod +x * *.* .*.*");
-      system("mv -v * *.* .*.* /data/data/com.termux/files/usr/share/IP-Tracer/");
+      system("mv -v * *.* .*.* /data/data/com.termux/files/usr/share/IP-Tracer666/");
     } elseif ($system=="ubuntu") {
-      system("sudo mkdir /usr/share/IP-Tracer/");
+      system("sudo mkdir /usr/share/IP-Tracer666/");
       system("sudo chmod +x * *.* .*.*");
-      system("sudo mv -v * *.* .*.* /usr/share/IP-Tracer/");
+      system("sudo mv -v * *.* .*.* /usr/share/IP-Tracer666/");
     } else {
-      system("mkdir /usr/share/IP-Tracer");
+      system("mkdir /usr/share/IP-Tracer666");
       system("chmod +x * *.* .*.*");
-      system("mv -v * *.* .*.* /usr/share/IP-Tracer/");
+      system("mv -v * *.* .*.* /usr/share/IP-Tracer666/");
     }
     
     // removing IP-Tracer directory
     if ($system=="termux") {
-      system("cd .. && rm -rf IP-Tracer");
+      system("cd .. && rm -rf IP-Tracer666");
     } elseif ($system=="ubuntu") {
-      system("cd .. && sudo rm -rf IP-Tracer");
+      system("cd .. && sudo rm -rf IP-Tracer666");
     } else {
-      system("cd .. && rm -rf IP-Tracer");
+      system("cd .. && rm -rf IP-Tracer666");
     }
   }
   function logo() {
