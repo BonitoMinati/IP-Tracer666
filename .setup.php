@@ -20,18 +20,18 @@ class set {
     
     // adding bin file
     if ($system=="termux") {
-      system("mv -v modules/ip-tracer /data/data/com.termux/files/usr/bin/");
-      system("mv -v modules/trace /data/data/com.termux/files/usr/bin/");
+      system("mv -v modules/ip-tracer666 /data/data/com.termux/files/usr/bin/");
+      system("mv -v modules/trace666 /data/data/com.termux/files/usr/bin/");
       system("chmod +x /data/data/com.termux/files/usr/bin/ip-tracer666 trace666");
       system("chmod +x /data/data/com.termux/files/usr/bin/trace666");
     } elseif ($system=="ubuntu") {
-      system("sudo mv -v modules/ip-tracer /usr/bin/");
-      system("sudo mv -v modules/trace /usr/bin/");
+      system("sudo mv -v modules/ip-tracer666 /usr/bin/");
+      system("sudo mv -v modules/trace666 /usr/bin/");
       system("sudo chmod +x /usr/bin/ip-tracer666");
       system("sudo chmod +x /usr/bin/trace666");
     } else {
-      system("mv -v modules/ip-tracer /usr/bin/");
-      system("mv -v modules/trace /usr/bin/");
+      system("mv -v modules/ip-tracer666 /usr/bin/");
+      system("mv -v modules/trace666 /usr/bin/");
       system("chmod +x /usr/bin/ip-tracer666");
       system("chmod +x /usr/bin/trace666");
     }
@@ -51,7 +51,7 @@ class set {
       system("mv -v * *.* .*.* /usr/share/IP-Tracer666/");
     }
     
-    // removing IP-Tracer directory
+    // removing IP-Tracer666 directory
     if ($system=="termux") {
       system("cd .. && rm -rf IP-Tracer666");
     } elseif ($system=="ubuntu") {
@@ -104,9 +104,9 @@ EOL;
 \033[01;37m ----------------------------------------------
 |         \033[01;36mcommand\033[01;37m       |        \033[01;36mUse\033[01;37m           |
  ----------------------------------------------
-| \033[01;32mtrace -m\033[01;37m              | \033[01;33mTrack your IP\033[01;37m        |
-| \033[01;32mtrace -t <traget-ip>\033[01;37m  | \033[01;33mTrack IP\033[01;37m             |
-| \033[01;32mtracer --help\033[01;37m         | \033[01;33mFor more information\033[01;37m |
+| \033[01;32mtrace666 -m\033[01;37m              | \033[01;33mTrack your IP\033[01;37m        |
+| \033[01;32mtrace666 -t <traget-ip>\033[01;37m  | \033[01;33mTrack IP\033[01;37m             |
+| \033[01;32mtracer666 --help\033[01;37m         | \033[01;33mFor more information\033[01;37m |
  ----------------------------------------------
 
 \033[01;31mNote :- ip-api will automatically ban any IP addresses doing over 150 requests per minute.\033[00m
