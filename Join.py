@@ -1,4 +1,5 @@
 import os
+import colorama
 import time
 import sys
 
