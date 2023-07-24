@@ -1,3 +1,6 @@
+import os
+import sys
+
 def MSG():
 	print(Y)
 	YTC = input("Have U Join Us ? (Y/N): ")
