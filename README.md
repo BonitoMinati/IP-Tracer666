@@ -7,8 +7,10 @@ IP-Tracer666 is used to track an ip address. IP-Tracer666 is developed for Termu
 # For Educational Purpose Only, we are not responsible for any damage or harm
 
 <p align="center">
-<img width="47%" Photo="Photo/01.jpg"/>
-<img width="40%" Photo="Photo/02.jpg"/>
+<img width="47%" src="Photo/01.jpg"/>
+  </p>
+  <p align="center">
+<img width="40%" src="Photo/02.jpg"/>
 </p>
 
 ## How to install IP-Tracer ?
